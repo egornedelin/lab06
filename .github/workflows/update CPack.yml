@@ -2,9 +2,9 @@ name: CPack
 
 on:
  push:
-  branches: [gad]
+  branches: [main]
  pull_request:
-  branches: [gad]
+  branches: [main]
 
 jobs: 
  build_Linux:
